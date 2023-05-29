@@ -10,3 +10,12 @@ header{
     background:#343a40;
     height: 70px;
 }
+th{
+  text-align: center;
+}
+td{
+  text-align: center;
+}
+#contenedor-espacio{
+  padding: 50px;
+}

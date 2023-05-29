@@ -42,11 +42,12 @@ $(document).ready(function(){
 
         //definición de botones
         buttons: {
-            addButton: '<input type="button" value="Nuevo" class="btn btn-success" />',
-            cancelButton: '<input type="button" value="Cancelar" class="btn btn-primary" />',
-            deleteButton: '<input type="button" value="Borrar" class="btn btn-danger" />',
-            editButton: '<input type="button" value="Editar" class="btn btn-primary" />',
-            saveButton: '<input type="button" value="Guardar" class="btn btn-success" />',
+            // addButton: '<input type="button" value="Nuevo" class="btn btn-success" />',
+            addButton:    '<button type="button" value="Nuevo" class="btn btn-success">Nuevo <i class="fa-solid fa-plus"></i></button>',
+            cancelButton: '<button type="button" class="btn btn-warning">Cancelar <i class="fa-solid fa-text-slash"></i></button>',
+            deleteButton: '<button type="button" class="btn btn-danger">Borrar <i class="fa-solid fa-trash"></i></button>',
+            editButton:   '<button type="button" class="btn btn-primary">Editar <i class="fa-solid fa-pen-to-square"></i></button>',
+            saveButton:   '<button type="button" class="btn btn-success">Guardar <i class="fa-solid fa-floppy-disk"></i></button>',
         },
         showActionColumn: true,
         //condicionales
