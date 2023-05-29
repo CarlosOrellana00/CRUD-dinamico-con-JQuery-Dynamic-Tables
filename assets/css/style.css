@@ -16,6 +16,9 @@ th{
 td{
   text-align: center;
 }
+h2{
+  padding: 10px;
+}
 #contenedor-espacio{
   padding: 50px;
 }
